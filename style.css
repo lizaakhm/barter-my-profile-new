@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top:10px ;
+    display: grid;
+    grid-template-columns: repeat(2, 480px);
+    grid-gap: 15px;
+    margin-left:90px;
+    
+  }
+  
+.information{
+    margin: 10px;
+}
+  
+  .number,
+  .Gmail,
+  .password {
+    box-sizing: border-box;
+    border: 1px solid #e8ecf4;
+    border-radius: 8px;
+    background: #f7f8f9;
+    width: 480px;
+    height: 56px;
+  }
+  
+  .text {
+    margin: 0;
+    padding: 10px;
+    color: #000000;
+  }
+  
+
+  .bluebox{
+    position: absolute;
+    width: 1013px;
+    height: 240px;
+    left: 289px;
+    top: 390px;
+    background: #6EB4FB;
+    border-radius: 36px;
+    overflow-y: scroll;
+  }
+
+  .bluebox2{
+    position: absolute;
+    width: 1013px;
+    height: 240px;
+    left: 289px;
+    top: 658px;
+    background: #6EB4FB;
+    border-radius: 36px;
+    overflow-y: scroll;
+    
+  }
+
+  .title{
+    position: absolute;
+    left: 289px;
+    top: 350px;
+  }
+
+  .change {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -40px; 
+    left: -20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+/*popup message*/
+
+  
+  
+  .popup {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 578px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    margin: 262px;
+    padding: 0px;
+  }
+  
+  .popup .close-btn {
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .popup .container .logo {
+    top: 30px;
+    position: absolute;
+    padding: 10px 317px;
+    height: 150px;
+}
+    
+.pp {
+    left: 217px;
+    margin: 50px;
+    position: absolute;
+    top: 162px;
+}
+  .popup .container .container-element {
+    margin: 15px 0px;
+  }
+  
+  input {
+    box-sizing: border-box;
+    border: 1px solid #e8ecf4;
+    border-radius: 8px;
+    background: #f7f8f9;
+    width: 480px;
+    height: 56px;
+  }
+  
+  .button {
+    width: 480px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    background: #6eb4fb;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 395px;
+    left: 252px;
+  }
+  .button2 {
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #f7f8f9;
+    color: #6eb4fb;
+    cursor: pointer;
+    top: 446px;
+    left: 253px;
+  }
+  
+  p{
+    margin: 10px;
+  }
+
+  #phone {
+    left: 258px;
+    position: absolute;
+    top: 237px;
+  }
+  #phone2 {
+    position: absolute;
+    top: 310px;
+    left: 258px;
+  }

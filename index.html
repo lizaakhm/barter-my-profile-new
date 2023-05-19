@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  />
+  </head>
+  <body>
+    <div class="container">
+        <input class="name" placeholder="სახელი" readonly/>
+        <input class="surname" placeholder="კომპანიის დასახელება" readonly/>
+        <input class="Gmail" placeholder="გვარი" readonly/>
+        <div>
+        <input class="password" placeholder="ნომერი" readonly />
+        <a class="change" href="#">შეცვლა</a>
+        </div>
+        
+        <input class="number" placeholder="ელ.ფოსტა" readonly/>
+      <div>
+        <input class="companyName" placeholder="პაროლი" readonly/>
+        <a  class="change" href="#">შეცვლა</a>
+    </div>
+      </div>
+<div class="container2">
+    <h3 class="title">განხორციელებული ოპერაციები</h3>
+    </div>
+    <div class="bluebox">
+        <div class="information">
+        <h2>წარმატებული ოპერაცია</h2>
+        <h4>05.06.2022</h4>
+        <h6>ბათე ჯენერალსი</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum eaque recusandae voluptatum molestiae, commodi ipsum accusantium illo nisi quod? Accusamus mollitia eius officiis veniam quam eaque explicabo voluptate porro.</p>
+        <i class='fa fa-retweet'></i>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae eum accusamus expedita, omnis adipisci modi illum ea dicta aut repellendus sapiente cupiditate. Inventore nostrum aliquam, consectetur consequuntur deleniti saepe soluta!</p>
+</div>
+</div>
+
+<div class="bluebox2">
+    <div class="information">
+    <h2>წარმატებული ოპერაცია</h2>
+    <h4>05.06.2022</h4>
+    <h6>ბათე ჯენერალსი</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum harum eaque recusandae voluptatum molestiae, commodi ipsum accusantium illo nisi quod? Accusamus mollitia eius officiis veniam quam eaque explicabo voluptate porro.</p>
+    <i class='fa fa-retweet'></i>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae eum accusamus expedita, omnis adipisci modi illum ea dicta aut repellendus sapiente cupiditate. Inventore nostrum aliquam, consectetur consequuntur deleniti saepe soluta!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, molestias quasi molestiae dolorem veritatis suscipit error recusandae eos earum tempore eaque adipisci minus expedita atque iste eligendi quaerat, dolorum quibusdam.</p>
+</div>
+</div>
+    </div>
+<!--popup message-->
+    <div class="popup">
+        <div id="closePopup" class="close-btn">&times;</div>
+        <div class="container">
+          <a href="#"> <img class="logo" src="assets/barter1.png" /></a>
+          <div class="container-element">
+              <p class="pp" >შეიყვანეთ მობილურ ტელეფონზე მიღებული კოდი</p>
+            <input
+              id="phone"
+              type="tel"
+              required
+              inputmode="numeric"
+              pattern="[0-9]+"
+              placeholder="ტელეფონის ნომერი"
+            />
+          </div>
+          <div class="container-element">
+            <input
+              id="phone2"
+              type="tel"
+              required
+              inputmode="numeric"
+              pattern="[0-9]+"
+              placeholder=" sms კოდი"
+            />
+          </div>
+          <div class="container-element">
+            <button id="myButton" class="button">დადასტურება</button>
+            <button class="button2">კოდის ხელახლა მიღება</button>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
